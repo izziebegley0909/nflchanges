@@ -82,29 +82,28 @@ blockquote {
   padding: 15px 20px;
   margin: 50px 0; 
   background: #f9f9f9;
-  line-height: 2; 
+  line-height: 2;
+  position: relative;
 }
 
 blockquote p {
   margin: 0;
+  display: inline;
 }
 
 blockquote::before {
-  content: "\201C"; 
-  font-size: 2em;
+  content: "\201C";
+  font-size: 1.2em;
   color: #777;
-  vertical-align: -0.4em;
-  margin-right: 10px;
+  margin-right: 2px;
 }
 
 blockquote::after {
   content: "\201D";
-  font-size: 2em;
+  font-size: 1.2em;
   color: #777;
-  vertical-align: -0.4em;
-  margin-left: 10px;
+  margin-left: 2px;
 }
-
 
     strong {
       color: #002244;
